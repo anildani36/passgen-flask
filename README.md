@@ -50,7 +50,7 @@ PassGen provides a real-time, responsive interface to create **high-entropy pass
 ```
 
 passgen-flask/
-├── app.py              # Controller: Route handling & API endpoints
+├── main.py              # Controller: Route handling & API endpoints
 ├── templates/          # Views: Responsive Jinja2 templates
 │   └── index.html
 └── README.md           # Documentation
@@ -71,7 +71,7 @@ passgen-flask/
 
 1️⃣ **Clone the repository**
 ```bash
-git clone https://github.com/your-username/passgen-flask.git
+git clone https://github.com/anildani36/passgen-flask.git
 cd passgen-flask
 ````
 
@@ -100,7 +100,10 @@ python app.py
 ```
 http://127.0.0.1:5000
 ```
-
+or
+```
+http://localhost:5000
+```
 ---
 
 ## 💡 How It Works
